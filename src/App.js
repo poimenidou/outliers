@@ -1,25 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Link } from "react-scroll";
+import Gamespage from "./sections/GamesPage";
+import Drawingspage from "./sections/DrawingsPage";
+import Countdownpage from "./sections/CountdownPage";
+import Tripspage from "./sections/TripsPage";
+import Yoofpage from "./sections/YoofPage";
+import Aboutuspage from "./sections/AboutUsPage";
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="Navbar">
+      <header className="nav">
+        <nav className="nav__container__actions">
+            {/* <h4>The Outliers</h4> */}
+          <ul>
+            <li>
+              <Link activeClass="active" smooth spy to="Countdown">
+                CountDown
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" smooth spy to="Trips">
+              Trips
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" smooth spy to="Games">
+              Games
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" smooth spy to="Drawings">
+              Drawings
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" smooth spy to="Yoof">
+              Yoof
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" smooth spy to="About Us">
+              About Us
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </header>
+      <section id="Countdown"><Countdownpage /></section>
+      <section id="Trips"><Tripspage /></section>
+      <section id="Games" style={{ backgroundImage: "url(/images/hollow-knight.jpeg)" }}><Gamespage /></section>
+      <section id="Drawings"><Drawingspage /></section>
+      <section id="Yoof"><Yoofpage /></section>
+      <section id="About Us"><Aboutuspage /></section>
     </div>
   );
 }
-
-export default App;
