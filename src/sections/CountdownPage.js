@@ -5,14 +5,14 @@ import { useEffect, useState } from 'react';
 import BackgroundSlider from './bgSlideshow'
 
 
-import image1 from '../images/countdown1.jpeg'
-import image2 from '../images/countdown2.jpeg'
-import image3 from '../images/countdown3.jpeg'
-import image4 from '../images/countdown4.jpeg'
-import image5 from '../images/countdown5.jpeg'
-import image6 from '../images/countdown6.jpeg'
-import image7 from '../images/countdown7.jpeg'
-import image8 from '../images/countdown8.jpeg'
+import image1 from '../images-countdown/countdown1.jpeg'
+import image2 from '../images-countdown/countdown2.jpeg'
+import image3 from '../images-countdown/countdown3.jpeg'
+import image4 from '../images-countdown/countdown4.jpeg'
+import image5 from '../images-countdown/countdown5.jpeg'
+import image6 from '../images-countdown/countdown6.jpeg'
+import image7 from '../images-countdown/countdown7.jpeg'
+import image8 from '../images-countdown/countdown8.jpeg'
 
 const Countdownpage = () => {
     // const xmasPlace = 'Thessaloniki';

@@ -1,3 +1,5 @@
+import React from "react"; 
+
 const Gamespage = () => {
     return ( 
         <div className="content" style={{ color: "white" }}>
