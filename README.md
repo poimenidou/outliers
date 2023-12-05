@@ -10,4 +10,7 @@ Countdown slideshow: https://github.com/u2ix/react-background-slider/tree/main
 
 Countdown: https://github.com/X1-Il/Birth-chrono/tree/main
 
-Yoof: https://github.com/xiaolin/react-image-gallery
+[//]: <> ( YoofPage.js: https://github.com/xiaolin/react-image-gallery)
+
+[//]: <> ( DrawingsPage.js has the contents of Yoof section until I decide whether I will add the Drawing Section of not..)
+Yoof: https://github.com/igordanchenko/react-photo-album/tree/main
