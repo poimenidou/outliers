@@ -32,14 +32,14 @@ export default function App() {
             </li>
             <li>
               <Link activeClass="active" smooth spy to="Drawings">
-              Yoof
+              Drawings
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link activeClass="active" smooth spy to="Yoof">
               Yoof
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link activeClass="active" smooth spy to="About Us">
               About Us
@@ -52,7 +52,7 @@ export default function App() {
       <section id="Trips"><Tripspage /></section>
       <section id="Games" style={{ backgroundImage: "url(/images/hollow-knight.jpeg)",  backgroundSize: "cover", backgroundRepeat: "no-repeat"}}><Gamespage /></section>
       <section id="Drawings" style={{display:"initial"}}><Drawingspage /></section>
-      {/* <section id="Yoof"><Yoofpage /></section> */}
+      <section id="Yoof" style={{display:"initial"}}><Yoofpage /></section>
       <section id="About Us"><Aboutuspage /></section>
     </div>
   );

@@ -1,5 +1,5 @@
-import ImageGallery from "react-image-gallery";
-import "react-image-gallery/styles/css/image-gallery.css";
+import React from "react"; 
+import {PhotoAlbum, RenderPhotoProps} from "react-photo-album";
 
 import image1 from '../images-yoof/image1.jpeg'
 import image2 from '../images-yoof/image2.jpeg'
@@ -15,71 +15,52 @@ import image11 from '../images-yoof/image11.jpeg'
 import image12 from '../images-yoof/image12.jpeg'
 import image13 from '../images-yoof/image13.jpeg'
 
-
-const images = [
-  {
-    original: image12,
-    thumbnail: image12,
-  },
-  {
-    original: image1,
-    thumbnail: image1,
-  },
-  {
-    original: image3,
-    thumbnail: image3,
-  },
-  {
-    original: image4,
-    thumbnail: image4,
-  },
-  {
-    original: image5,
-    thumbnail: image5,
-  },
-  {
-    original: image6,
-    thumbnail: image6,
-  },
-  {
-    original: image7,
-    thumbnail: image7,
-  },
-  {
-    original: image8,
-    thumbnail: image8,
-  },
-  {
-    original: image9,
-    thumbnail: image9,
-  },
-  {
-    original: image10,
-    thumbnail: image10,
-  },
-  {
-    original: image11,
-    thumbnail: image11,
-  },
-  {
-    original: image2,
-    thumbnail: image2,
-  },
-  {
-    original: image13,
-    thumbnail: image13,
-  },
+const photos = [
+    { src:image1, width: 576, height: 768 },
+    { src:image12, width: 1536, height: 2048 },
+    { src:image11, width: 343, height: 636 },
+    { src:image2, width: 720, height: 960 },
+    { src:image3, width: 432, height: 959 },
+    { src:image4, width: 1170, height: 1560 },
+    { src:image5, width: 704, height: 960 },
+    { src:image6, width: 1536, height: 2048 },
+    { src:image7, width: 720, height: 960 },
+    { src:image8, width: 921, height: 2048 },
+    { src:image9, width: 1536, height: 2048 },
+    { src:image10, width: 921, height: 2048 },
+    { src:image13, width: 1204, height: 1600 },
 ];
 
 
-const Yoofpage = () => {
-    return (
-      <div style = {{height:"100vh", width:"100vh"}} >
-        <ImageGallery items={images} thumbnailPosition="left" showFullscreenButton={false} showPlayButton={false} 
-          showNav={false} showBullets={true} useBrowserFullscreen={true} showThumbnails={true}/>
-      </div>
-      
-    );}
- 
-export default Yoofpage;
+const Drawingspage = () => {
+    const padding = 25;
+    const spacing = 30;
+    const renderPhoto = React.useCallback(
+        ({ imageProps: { alt, style, ...rest } }: RenderPhotoProps) => (
+          <img
+            alt={alt}
+            style={{
+              ...style,
+              borderRadius: padding > 2 ? "4px" : 0,
+              boxShadow:
+                spacing > 0
+                  ? "0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%)"
+                  : "none",
+              transition: "box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",
+              backgroundColor: "white"
+            }}
+            {...rest}
+          />
+        ),
+        [spacing, padding],
+      );
 
+    return ( 
+      <div style = {{margin: "18rem"}}>
+        <PhotoAlbum layout="masonry" photos={photos} padding={padding} spacing={spacing} renderPhoto={renderPhoto} />
+      </div>
+        
+     );
+}
+ 
+export default Drawingspage;
