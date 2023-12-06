@@ -21,7 +21,7 @@ const Countdownpage = () => {
     return (
       <div>
         <CountdownTimer targetDate={xmasDate}/>
-        {/* <h5>..until next meetup in {xmasPlace} !</h5> */}
+        <h5 style={{fontSize: "20px", margin:"0", padding:"0", textAlign: "center"}}>The days don't seem to pass but, they do! </h5>
 
         <BackgroundSlider
             images={[image1, image2, image3, image4, image5, image6, image7, image8]}

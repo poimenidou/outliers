@@ -165,10 +165,7 @@ const Aboutuspage = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="relative flex-1 flex justify-center items-center">
       <p style = {{paddingLeft: "5rem", paddingTop: "5rem", marginLeft: "20rem",paddingBottom: "9rem",  textAlign:"right"}}>
-        Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
-        Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
-        Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
-        Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
+        Maybe someone could add an equally cringe text over here..
       </p>
       </motion.div> 
 

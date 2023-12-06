@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
 :root {
   color-scheme: dark;
 }
@@ -120,7 +122,6 @@ li:hover {
 /* /////////////slideshow-countdown////////////////// */
 
 
-@import url('https://fonts.googleapis.com/css?family=Dosis');
 
 body {
   margin: 0;
@@ -388,6 +389,10 @@ h2 {
   margin: 50px 0 10px;
 }
 
+h5 {
+  font-size: 36px;
+}
+
 p {
   margin: 0 0 30px 0;
   font-size: 18px;
@@ -518,4 +523,8 @@ section > div {
   height: 5px;
   background: var(--accent);
   bottom: 70px;
+}
+
+h5 {
+  font-size: 36px;
 }
