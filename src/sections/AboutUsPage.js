@@ -1,6 +1,8 @@
 import React from "react"; 
 import { motion } from 'framer-motion';
 
+import image4 from '../images-aboutus/image4.jpeg'
+import image6 from '../images-aboutus/image6.jpeg'
 
 const styles = {
     innerWidth: '2xl:max-w-[1280px] w-full',
@@ -118,39 +120,61 @@ export const TypingText = ({ title, textStyles }) => (
     },
   });
 
+
 const Aboutuspage = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <div style = {{ margin: "10rem", width:"70%", height:"50%"}}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
-    >  
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}>
+      
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.95] flex justify-center flex-col"
-      >
-          <TitleText title={<>Is My Art Self-Taught or Self-Thought?</>} />
-        <div className="mt-6">
-          <p className="text-lg text-center text-[#bcbdbe]">
-            As a self-taught artist, drawing inspiration from Pinterest, Instagram, and Google ignites a creative journey filled with diverse ideas. Armed with simple paper or digital tools, I sketch and create, giving life to unique expressions of art. It's a dance of curiosity, discovery, and dedication that empowers me to share the magic of my self-taught art with the world.
-          </p>
-        </div>
-        
-        <motion.div
-        variants={planetVariants('right')}
-        className={`flex-1 ${styles.flexCenter}`}
-      >
-        <img
-          src= '../images-yoof/image1.jpeg'
-          alt="nasos"
-        //   className="w-[90%] h-[80%] object-contain"
+        className="flex-[0.5] lg:max-w-[40000px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative">
+         <img
+          src={image6}
+          alt="planet-09"
+          style = {{ marginRight: "2rem", float:"left"}}
+          className="circular_image"
         />
       </motion.div>
+      <motion.div
+        variants={fadeIn('right', 'tween', 0.2, 1)}
+        className="flex-[0.5] lg:max-w-[40000px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative">
+        <p style = {{ paddingRight: "2rem", paddingTop: "2rem", marginRight: "20rem"}}>
+          Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
+          Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
+          Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
+          Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
+        </p>
       </motion.div>
+
+      <motion.div
+        variants={fadeIn('left', 'tween', 0.2, 1)}
+        className="relative flex-1 flex justify-center items-center">
+        <img
+          src={image4}
+          alt="planet-09"
+          style = {{ marginTop: "3rem",  marginLeft: "2rem", marginRight: "2rem",  float:"right"}}
+          className="circular_image"
+        />
+      </motion.div>
+      <motion.div
+        variants={fadeIn('left', 'tween', 0.2, 1)}
+        className="relative flex-1 flex justify-center items-center">
+      <p style = {{paddingLeft: "5rem", paddingTop: "5rem", marginLeft: "20rem",paddingBottom: "9rem",  textAlign:"right"}}>
+        Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
+        Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
+        Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
+        Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
+      </p>
+      </motion.div> 
+
     </motion.div>
-  </section>
+
+    </div>
 );
 
  

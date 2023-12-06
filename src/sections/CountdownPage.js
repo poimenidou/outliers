@@ -122,5 +122,3 @@ const CountdownTimer = ({ targetDate }) => {
 };
 
 export default Countdownpage;
-
-// export default CountdownTimer;

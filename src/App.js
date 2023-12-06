@@ -6,14 +6,27 @@ import Countdownpage from "./sections/CountdownPage";
 import Tripspage from "./sections/TripsPage";
 import Yoofpage from "./sections/YoofPage";
 import Aboutuspage from "./sections/AboutUsPage";
+import {
+  motion,
+  useScroll,
+  useSpring,
+  useTransform,
+  MotionValue
+} from "framer-motion";
 
 
 export default function App() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
+  
   return (
-    <div className="Navbar">
+    <div>
       <header className="nav">
         <nav className="nav__container__actions">
-            {/* <h4>The Outliers</h4> */}
           <ul>
             <li>
               <Link activeClass="active" smooth spy to="Countdown">
@@ -54,6 +67,7 @@ export default function App() {
       <section id="Drawings" style={{display:"initial"}}><Drawingspage /></section>
       <section id="Yoof" style={{display:"initial"}}><Yoofpage /></section>
       <section id="About Us"><Aboutuspage /></section>
+      <motion.div className="progress" style={{ scaleX }} />
     </div>
   );
 }

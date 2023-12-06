@@ -33,7 +33,7 @@ const photos = [
 
 
 const Drawingspage = () => {
-    const padding = 25;
+    const padding = 35;
     const spacing = 30;
     const renderPhoto = React.useCallback(
         ({ imageProps: { alt, style, ...rest } }: RenderPhotoProps) => (
@@ -56,7 +56,7 @@ const Drawingspage = () => {
       );
 
     return ( 
-      <div style = {{margin: "18rem"}}>
+      <div style = {{margin: "18rem", paddingTop:"10rem"}}>
         <PhotoAlbum layout="masonry" photos={photos} padding={padding} spacing={spacing} renderPhoto={renderPhoto} />
       </div>
         
