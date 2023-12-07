@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/outliers/static/css/main.c19e42df.css",
-    "main.js": "/outliers/static/js/main.f1ab2c0c.js",
+    "main.js": "/outliers/static/js/main.d48474db.js",
     "static/js/787.b4b4ba7e.chunk.js": "/outliers/static/js/787.b4b4ba7e.chunk.js",
     "static/media/countdown6.jpeg": "/outliers/static/media/countdown6.fffd81a82bed2702eeb6.jpeg",
     "static/media/countdown4.jpeg": "/outliers/static/media/countdown4.bd8766008d48b07def5d.jpeg",
@@ -36,17 +36,18 @@
     "static/media/image12.jpeg": "/outliers/static/media/image12.20201c962b608d59a5c4.jpeg",
     "static/media/image9.jpeg": "/outliers/static/media/image9.18c823b1dbe9bc969c0c.jpeg",
     "static/media/image3.jpeg": "/outliers/static/media/image3.40fcd896969c8a8c6b72.jpeg",
+    "static/media/hollow-knight.jpeg": "/outliers/static/media/hollow-knight.4c44aae41c4849cd4642.jpeg",
     "static/media/image8.jpeg": "/outliers/static/media/image8.61e449e43dd301efed7b.jpeg",
     "static/media/countdown3.jpeg": "/outliers/static/media/countdown3.3f5f5bfbb43a46666c1d.jpeg",
     "static/media/image11.jpeg": "/outliers/static/media/image11.78f7f356bde04b23101f.jpeg",
     "static/media/image7.jpeg": "/outliers/static/media/image7.27c8c008e0b6cb84a548.jpeg",
     "index.html": "/outliers/index.html",
     "main.c19e42df.css.map": "/outliers/static/css/main.c19e42df.css.map",
-    "main.f1ab2c0c.js.map": "/outliers/static/js/main.f1ab2c0c.js.map",
+    "main.d48474db.js.map": "/outliers/static/js/main.d48474db.js.map",
     "787.b4b4ba7e.chunk.js.map": "/outliers/static/js/787.b4b4ba7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c19e42df.css",
-    "static/js/main.f1ab2c0c.js"
+    "static/js/main.d48474db.js"
   ]
 }
