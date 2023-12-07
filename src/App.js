@@ -59,30 +59,31 @@ export default function App() {
           </ul>
         </nav>
       </header>
-      <section id="Countdown"><Countdownpage /></section>
+      <section id="Countdown" style={{boxShadow:" 0 0 10rem 10rem rgba(18,18,18,255) inset"}}><Countdownpage /></section>
 
-      <section >
+      {/* <section >
         <div>
           <h5 style={{fontSize: "20px", margin:"0", padding:"0", textAlign: "center"}}>Until then though let's take a small tour down memory lane by sharing some fond memories</h5>
         </div>
-       </section>
+       </section> */}
 
       <section id="Trips"><Tripspage /></section>
-      <section id="Games" style={{ backgroundImage: "url(/images/hollow-knight.jpeg)",  backgroundSize: "cover", backgroundRepeat: "no-repeat"}}><Gamespage /></section>
+      <section id="Games" style={{ backgroundImage: "url(/images/hollow-knight.jpeg)",  backgroundSize: "cover", 
+      backgroundRepeat: "no-repeat", boxShadow:" 0 0 10rem 10rem rgba(18,18,18,255) inset"}}><Gamespage /></section>
     
-      <section >
+      {/* <section >
       <div>
         <h5 style={{paddingTop:"10rem", fontSize:"20px", textAlign: "center"}}> Let's now showcase some nice artworks from the past</h5>
       </div>
-      </section>
+      </section> */}
 
       <section id="Drawings" style={{display:"initial"}}><Drawingspage /></section>
 
-      <section >
+      {/* <section >
         <div>
           <h5 style={{paddingTop:"10rem", fontSize:"20px", textAlign: "center"}}> Our little yoof is always here to make our hearts warmer</h5>
         </div>
-      </section>
+      </section> */}
 
       <section id="Yoof" style={{display:"initial"}}><Yoofpage /></section>
 

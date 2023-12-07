@@ -1,6 +1,7 @@
 import React from "react"; 
 import {PhotoAlbum, RenderPhotoProps} from "react-photo-album";
 
+
 import image1 from '../images-yoof/image1.jpeg'
 import image2 from '../images-yoof/image2.jpeg'
 import image3 from '../images-yoof/image3.jpeg'
@@ -65,7 +66,6 @@ const photos = [
     { src:image31, width: 3120, height: 4160 },
 ];
 
-
 const Drawingspage = () => {
     const padding = 25;
     const spacing = 35;
@@ -90,7 +90,8 @@ const Drawingspage = () => {
       );
 
     return ( 
-      <div style = {{margin: "18rem", paddingTop:"10rem"}}>
+      <div style = {{margin: "12rem", paddingTop:"5rem"}}>
+        <h5 style={{textAlign: "left", fontSize:"20px"}}> Our little yoof is always here to make our hearts warmer</h5>
         <PhotoAlbum layout="columns" photos={photos} padding={padding} spacing={spacing} renderPhoto={renderPhoto} />
       </div>
         

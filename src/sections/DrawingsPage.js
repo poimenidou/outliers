@@ -18,7 +18,7 @@ function Image({ id }: { id: number }) {
 
   return (
     <section>
-      <div ref={ref} style={{width: "300px", height: "400px", position: "relative", maxHeight: "90vh", margin: "20px", background: "var(--white)", overflow: "hidden"}}>
+      <div ref={ref} style={{width: "300px", height: "400px", position: "relative", maxHeight: "90vh", background: "var(--white)", overflow: "hidden"}}>
         <img src={require("../images-drawings/image"+id+".jpeg")} style={{width: "300px", height: "400px"}} alt="A drawing" />
         <p>{'../images-drawings/image' + id + '.jpeg'}</p>
       </div>

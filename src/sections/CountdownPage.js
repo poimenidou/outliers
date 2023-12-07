@@ -1,6 +1,4 @@
 import React from 'react';
-// import DateTimeDisplay from './DateTimeDisplay';
-// import { useCountdown } from './hooks/useCountdown';
 import { useEffect, useState } from 'react';
 import BackgroundSlider from './bgSlideshow'
 
@@ -23,8 +21,7 @@ const Countdownpage = () => {
 
         <BackgroundSlider
             images={[image1, image2, image3, image4, image5, image6, image7]}
-            duration={5}
-            transition={2}
+            duration={5} transition={2}
         />
       </div>
     );
