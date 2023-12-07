@@ -68,7 +68,7 @@ const photos = [
 
 const Drawingspage = () => {
     const padding = 25;
-    const spacing = 45;
+    const spacing = 35;
     const renderPhoto = React.useCallback(
         ({ imageProps: { alt, style, ...rest } }: RenderPhotoProps) => (
           <img

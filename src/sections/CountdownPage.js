@@ -12,23 +12,20 @@ import image4 from '../images-countdown/countdown4.jpeg'
 import image5 from '../images-countdown/countdown5.jpeg'
 import image6 from '../images-countdown/countdown6.jpeg'
 import image7 from '../images-countdown/countdown7.jpeg'
-import image8 from '../images-countdown/countdown8.jpeg'
 
 const Countdownpage = () => {
-    // const xmasPlace = 'Thessaloniki';
     const xmasDate = new Date('2023.12.21');
   
     return (
       <div>
         <CountdownTimer targetDate={xmasDate}/>
-        <h5 style={{fontSize: "20px", margin:"0", padding:"0", textAlign: "center"}}>The days don't seem to pass but, they do! </h5>
+        <h5 style={{fontSize: "20px", margin:"0", padding:"0", textAlign: "center"}}>The days don't seem to pass but they do! </h5>
 
         <BackgroundSlider
-            images={[image1, image2, image3, image4, image5, image6, image7, image8]}
+            images={[image1, image2, image3, image4, image5, image6, image7]}
             duration={5}
             transition={2}
         />
-  {/* </div> */}
       </div>
     );
 }
