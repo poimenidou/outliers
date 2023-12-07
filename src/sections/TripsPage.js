@@ -28,9 +28,9 @@ const Tripspage = () => {
             </div>
             <div className="text" >
               <p>
-                We went on a small hike at PLatanakia by bus, it was very 
+                We went on a small hike at Platanakia by bus, it was very 
                 nice and quiet and we had an amazing heart to heart conversation 
-                that absolutely made us get closer! Also I got bitten by a nasty
+                that absolutely made us get closer! I also got bitten by a nasty
                 bug that left a mark for weeks.
               </p>
             </div>
@@ -57,7 +57,7 @@ const Tripspage = () => {
         <SwiperSlide style={{ backgroundImage: `url(${image1})`,  backgroundSize: "cover"}}>
         <div class="text-block">
           <div className="title" >
-            Sikia beach, Chalkidiki, Greece
+            Sikia beach, Halkidiki, Greece
           </div>
           <div className="subtitle" >
             04.07.2023
@@ -65,7 +65,7 @@ const Tripspage = () => {
           <div className="text" >
             <p>
               This was our first trip as... a bit more than friends. We went to a camp for a couple
-               of days and spent some quite time next to the sea. On morning we even did scuba diving for 
+               of days and spent some quiet time next to the sea. In the morning we even did scuba diving for 
                the first time! Nasos was terrified at the beginning.. I was a natural! A really special trip I would say!
             </p>
           </div>
