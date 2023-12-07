@@ -12,6 +12,8 @@ import {
   useSpring,
 } from "framer-motion";
 
+import image1 from './images-games/hollow-knight.jpeg'
+
 
 export default function App() {
   const { scrollYProgress } = useScroll();
@@ -68,7 +70,7 @@ export default function App() {
        </section> */}
 
       <section id="Trips"><Tripspage /></section>
-      <section id="Games" style={{ backgroundImage: "url(/images/hollow-knight.jpeg)",  backgroundSize: "cover", 
+      <section id="Games" style={{ backgroundImage: `url(${image1})`,  backgroundSize: "cover", 
       backgroundRepeat: "no-repeat", boxShadow:" 0 0 10rem 10rem rgba(18,18,18,255) inset"}}><Gamespage /></section>
     
       {/* <section >
