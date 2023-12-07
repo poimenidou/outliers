@@ -10,6 +10,8 @@ Countdown slideshow: https://github.com/u2ix/react-background-slider/tree/main
 
 Countdown: https://github.com/X1-Il/Birth-chrono/tree/main
 
+Trips: https://github.com/nolimits4web/swiper
+
 Drawings: https://www.framer.com/motion/scroll-animations/##parallax
 
 Yoof: https://github.com/igordanchenko/react-photo-album/tree/main

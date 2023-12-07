@@ -266,7 +266,7 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 20px;
+  padding: 17px;
   background-image: radial-gradient(
     rgba(0, 0, 0, 0) 1px,
     var(--background) 1px
@@ -275,7 +275,7 @@ footer {
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   -moz-backdrop-filter: blur(3px);
-  font-size: 14px;
+  font-size: 13px;
   line-height: 14px;
 }
 

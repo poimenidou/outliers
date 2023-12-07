@@ -72,7 +72,6 @@ const ExpiredNotice = () => {
   return (
     <div className="expired-notice">
       <span>You have now found each other again!</span>
-      <p>Please add a future trip.</p>
     </div>
   );
 };
