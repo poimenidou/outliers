@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Navigation Bar: https://dev.to/diballesteros/how-to-make-a-navbar-with-react-scroll-4im8
 
+Background: https://github.com/tsparticles/react
+
 Countdown slideshow: https://github.com/u2ix/react-background-slider/tree/main
 
 Countdown: https://github.com/X1-Il/Birth-chrono/tree/main

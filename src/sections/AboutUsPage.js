@@ -127,7 +127,7 @@ const Aboutuspage = () => (
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}>
-      
+
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[40000px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative">
@@ -141,11 +141,12 @@ const Aboutuspage = () => (
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[40000px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative">
+        {/* <p style = {{paddingLeft: "5rem", paddingTop: "5rem", marginLeft: "20rem",paddingBottom: "9rem",  textAlign:"right"}}> */}
         <p style = {{ paddingRight: "2rem", paddingTop: "2rem", marginRight: "20rem"}}>
-          Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
-          Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
-          Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
-          Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..Maybe someone could add an equally cringe text over here..
+         We first met on the 1st year of University and after many hours (and sweat) on a certain object oriented programming project it was clear to both of us that there was a lot of chemistry. 
+         Why didn't we hit it off then? Well, we actually tried for a very short while but we were just not on the same page then, chemistry is not everything right?
+         And now after 8 years, after we both matured in our own ways, something just clicked or maybe the stars just aligned and we finally took our winkers off. 
+        Its beeen 4 months and still going :) Our only issue now are these few 2000km between us but that's not too bad right?
         </p>
       </motion.div>
 
@@ -166,7 +167,6 @@ const Aboutuspage = () => (
         Maybe someone could add an equally cringe text over here..
       </p>
       </motion.div> 
-
     </motion.div>
 
     </div>

@@ -11,6 +11,7 @@ import {
   useScroll,
   useSpring,
 } from "framer-motion";
+import Particles from './BackgroundParticules'
 
 import image1 from './images-games/hollow-knight.jpeg'
 
@@ -61,7 +62,8 @@ export default function App() {
           </ul>
         </nav>
       </header>
-      <section id="Countdown" style={{boxShadow:" 0 0 10rem 10rem rgba(18,18,18,255) inset"}}><Countdownpage /></section>
+      <Particles id="tsparticles" />
+      <section id="Countdown" ><Countdownpage /></section>
 
       {/* <section >
         <div>
