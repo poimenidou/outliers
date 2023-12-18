@@ -2,7 +2,6 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import BackgroundSlider from './bgSlideshow'
 
-
 import image1 from '../images-countdown/countdown1.jpeg'
 import image2 from '../images-countdown/countdown2.jpeg'
 import image3 from '../images-countdown/countdown3.jpeg'
@@ -12,8 +11,8 @@ import image6 from '../images-countdown/countdown6.jpeg'
 import image7 from '../images-countdown/countdown7.jpeg'
 
 const Countdownpage = () => {
-    const xmasDate = new Date('2023.12.21');
-  
+    const xmasDate = new Date('2023.12.27');
+   
     return (
       <div>
         <CountdownTimer targetDate={xmasDate}/>
