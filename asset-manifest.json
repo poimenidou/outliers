@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/outliers/static/css/main.5d7e8ac1.css",
-    "main.js": "/outliers/static/js/main.39c06e4e.js",
-    "static/js/787.b4b4ba7e.chunk.js": "/outliers/static/js/787.b4b4ba7e.chunk.js",
+    "main.css": "/outliers/static/css/main.117653ad.css",
+    "main.js": "/outliers/static/js/main.a2ed9f76.js",
+    "static/js/496.500a0a47.chunk.js": "/outliers/static/js/496.500a0a47.chunk.js",
     "static/media/countdown6.jpeg": "/outliers/static/media/countdown6.fffd81a82bed2702eeb6.jpeg",
     "static/media/countdown4.jpeg": "/outliers/static/media/countdown4.bd8766008d48b07def5d.jpeg",
     "static/media/image29.jpeg": "/outliers/static/media/image29.5aff4636df7d7fe69f0d.jpeg",
@@ -42,12 +42,12 @@
     "static/media/countdown3.jpeg": "/outliers/static/media/countdown3.3f5f5bfbb43a46666c1d.jpeg",
     "static/media/image11.jpeg": "/outliers/static/media/image11.78f7f356bde04b23101f.jpeg",
     "index.html": "/outliers/index.html",
-    "main.5d7e8ac1.css.map": "/outliers/static/css/main.5d7e8ac1.css.map",
-    "main.39c06e4e.js.map": "/outliers/static/js/main.39c06e4e.js.map",
-    "787.b4b4ba7e.chunk.js.map": "/outliers/static/js/787.b4b4ba7e.chunk.js.map"
+    "main.117653ad.css.map": "/outliers/static/css/main.117653ad.css.map",
+    "main.a2ed9f76.js.map": "/outliers/static/js/main.a2ed9f76.js.map",
+    "496.500a0a47.chunk.js.map": "/outliers/static/js/496.500a0a47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d7e8ac1.css",
-    "static/js/main.39c06e4e.js"
+    "static/css/main.117653ad.css",
+    "static/js/main.a2ed9f76.js"
   ]
 }
