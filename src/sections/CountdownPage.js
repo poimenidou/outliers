@@ -11,7 +11,7 @@ import image6 from '../images-countdown/countdown6.jpeg'
 import image7 from '../images-countdown/countdown7.jpeg'
 
 const Countdownpage = () => {
-    const xmasDate = new Date('2023.12.27');
+    const xmasDate = new Date('2024.02.14');
    
     return (
       <div>
