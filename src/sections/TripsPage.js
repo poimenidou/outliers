@@ -9,6 +9,7 @@ import image1 from '../images-trips/image1.jpeg'
 import image2 from '../images-trips/image2.jpeg'
 import image3 from '../images-trips/image3.jpeg'
 import image4 from '../images-trips/image4.jpeg'
+import image5 from '../images-trips/image5.jpeg'
 
 const Tripspage = () => {
     return (
@@ -19,6 +20,23 @@ const Tripspage = () => {
           modules={[EffectCards]}
           className="mySwiper"
         >
+          <SwiperSlide style={{ backgroundImage: `url(${image5})`,  backgroundSize: "cover"}}>
+          <div class="text-block">
+            <div className="title" >
+              Les Gets, France
+            </div>
+            <div className="subtitle" >
+              17.02.2024
+            </div>
+            <div className="text" >
+              <p>
+                We had our first snowboard outing ever! We spent most of the first half of the day on the small piste where an instructor 
+                taught Nasos the basics of snowboarding and on the second half we did a blue slope! It was a blast! On our way back.. I got my first speeding ticket.. yaay..
+                It was also Nasos birthday two days later so we celebrated by eating a nice big cake right from the box :D 
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
           <SwiperSlide style={{ backgroundImage: `url(${image4})`,  backgroundSize: "cover"}}>
           <div class="text-block">
             <div className="title" >
